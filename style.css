@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "roboto";
+}
+
+header,
+footer {
+  background-color: #1f2937;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+h1,
+.header-logo {
+  color: #f9faf8;
+}
+
+p,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button,
+.call-to-action {
+  background-color: #3882f6;
+}
