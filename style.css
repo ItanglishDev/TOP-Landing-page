@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: "roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 header,
@@ -21,7 +21,9 @@ h1 {
 }
 
 .header-logo {
-  font-size: 24px;
+  font-size: 20px;
+  width: 100%;
+  font-weight: bolder;
 }
 
 h1,
@@ -29,13 +31,57 @@ h1,
   color: #f9faf8;
 }
 
+.header-logo {
+  margin-left: 8rem;
+  padding: 1rem 0;
+}
+
+nav,
+ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.first-a {
+  margin-left: auto;
+}
+
+ul {
+  margin-right: 8rem;
+}
+
 p,
 a {
   font-size: 18px;
-  color: #e5e7eb;
+  color: #b2b2b4;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+li {
+  list-style: none;
 }
 
 button,
 .call-to-action {
   background-color: #3882f6;
+}
+
+h2 {
+  font-weight: extra-bold;
+}
+
+.quote {
+  font-weight: light;
+  font-style: italic;
+}
+
+h2,
+.quote {
+  font-size: 36px;
+  color: #1f2937;
 }

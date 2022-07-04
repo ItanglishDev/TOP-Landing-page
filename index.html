@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
@@ -12,22 +15,28 @@
       <nav>
         <p class="header-logo">Header Logo</p>
         <ul>
-          <a href=""><li>header link one</li></a>
+          <a class="first-a" href=""><li>header link one</li></a>
           <a href=""><li>header link two</li></a>
           <a href=""><li>header link three</li></a>
         </ul>
       </nav>
-      <section class="header-top-left">
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's smaller and the font color is lower
-        </p>
-        <button>Sign up</button>
-      </section>
-      <section class="header-top-right">
-        <img src="#" alt="This is a placeholder for an image" />
-      </section>
+
+      <div class="header-top">
+          <section class="header-top-left">
+            <h1>This website is awesome</h1>
+            <p>
+              This website has some subtext that goes here under the main title.
+              It's smaller and the font color is lower
+            </p>
+            <button>Sign up</button>
+          </section>
+          <section class="header-top-right">
+            <div class="grey-image-placeholder">
+                <p>This is a placeholder for an image</p>
+            </div>
+          </section>
+      </div>
+
       <main>
         <section class="top-section">
             <h2>Some random information.</h2>
