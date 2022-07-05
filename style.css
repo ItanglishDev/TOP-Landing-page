@@ -116,3 +116,40 @@ button {
   border-radius: 12px;
   margin-top: 1rem;
 }
+
+/*    M A I N    M I D */
+
+h2 {
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.top-section {
+  background-color: #f9faf8;
+  height: 30rem;
+}
+
+.squares {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-around; */
+  gap: 4rem;
+  margin-left: 20%;
+}
+
+.square {
+  max-width: 150px;
+}
+
+.light-blue-square {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.square p {
+  font-size: 16px;
+  color: #717172;
+}
